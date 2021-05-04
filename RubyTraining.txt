@@ -19,7 +19,7 @@ himanshu
 >>
 
 
-= Integer Method in ruby
+1) Integer Method in ruby
    
   100.class
  => Integer 
@@ -29,4 +29,34 @@ himanshu
    30.next
  => 31 
 
+2)Float
+
+2.6.1 :005 > 9/3.0
+ => 3.0 
+ 100/33.0
+ => 3.0303030303030303 
+
+i)round ,to_i (convert to integer), floor, ceil etc. method with 
+  float type data type
+
+ 12.9922.round
+ => 13 
+
+ 12.3324.to_i
+ => 12 
+
+ 123.343.ceil
+ => 124 
+
+ x=22.22
+ => 22.22 
+
+ x
+ => 22.22 
+
+ x.floor
+ => 22 
+ 
+ 213.23.class
+ => Float 
 
