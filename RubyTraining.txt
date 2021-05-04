@@ -60,3 +60,40 @@ i)round ,to_i (convert to integer), floor, ceil etc. method with
  213.23.class
  => Float 
 
+
+3) *STRING*
+
+>> x="Himanshu"
+=> "Himanshu"
+>> x
+=> "Himanshu"
+
+>> y="Gautam"
+=> "Gautam"
+
+Concatenation >> z=x+" "+y
+=> "Himanshu Gautam"
+
+Append
+>> a="Hello"
+=> "Hello"
+
+>> a<<" " 
+=> "Hello "
+
+>> a<<"World!"
+=> "Hello World!"
+
+Multiplication ="1 " *3
+=> "1 1 1 "
+
+Some Methods of String
+a.reverse
+=> "!dlroW olleH"
+>> a.capitalize
+=> "Hello world!"
+>> a.upcase
+=> "HELLO WORLD!"
+>> a.length
+=> 12
+
