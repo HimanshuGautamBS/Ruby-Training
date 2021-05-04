@@ -97,3 +97,24 @@ a.reverse
 >> a.length
 => 12
 
+
+STRING ESCAPING
+
+'let\'s escape'
+=> "let's escape"
+
+STRING COTROL CHARACTER (work with only double cots)
+  puts "\ts\tv\nv\td"
+	s	v
+v	d
+
+
+String Interpolation
+
+>> msg
+=> "I love you"
+>> puts "I just called to say: #{msg}."
+I just called to say: I love you.
+=> nil
+
+
