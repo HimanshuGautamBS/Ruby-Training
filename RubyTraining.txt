@@ -1,0 +1,8 @@
+ruby -e 'puts 123'
+123
+
+ruby simplefile.rb 
+123
+345
+678
+
