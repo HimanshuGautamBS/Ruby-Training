@@ -13,3 +13,20 @@ irb (Interactive Ruby Shell )
 himanshu
  => nil (retrun type)
 
+-to get exit from irb use  command => exit
+
+-irb --simple-prompt
+>>
+
+
+= Integer Method in ruby
+   
+  100.class
+ => Integer 
+
+
+=Next, abs etc Method
+   30.next
+ => 31 
+
+
