@@ -6,3 +6,10 @@ ruby simplefile.rb
 345
 678
 
+irb (Interactive Ruby Shell )
+2.6.1 :001 > 1+1
+ => 2 
+2.6.1 :002 > puts "himanshu"
+himanshu
+ => nil (retrun type)
+
