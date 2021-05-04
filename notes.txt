@@ -1,2 +1,8 @@
 rvm install 1.9.2
 
+*Ruby*
+
+-Fully object oriented
+-Interpreter based programming language
+-Ruby on Rail is frame Work Written in Ruby
+
