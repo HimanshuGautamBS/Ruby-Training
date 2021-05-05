@@ -1,0 +1,11 @@
+SCOPE OF VARIABLE
+
+1)Local Scope
+2)Global Scope
+
+Variables in Ruby
+
+1) Instance Variables
+2) Class Variables
+3) Class Instance Variables
+
