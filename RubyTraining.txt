@@ -119,6 +119,36 @@ I just called to say: I love you.
 
 ////////////////////////////////////////
 
-Creating object of a Class
+#TYPE CONVERSION
 
-classObj=ClassName.new
+1) 9.to_c -> complex
+   >> 9.to_c
+   => (9+0i)
+
+2) .to_f -> Float
+   >> 33.to_f
+   => 33.0
+
+3).to_i  -Integer(base 10)
+   >> "hello".to_i
+  => 0
+  >> "12424234".to_i
+  => 12424234 
+
+  a)>> "123".to_i(2)  #base 2
+   => 1
+   >> "1222".to_i(16) #base 16
+   => 4642
+
+4)to_r → rational
+  >> 34/2.to_r
+  => (17/1)
+  
+  >> "0.3".to_r
+  => (3/10)
+
+
+
+
+
+
