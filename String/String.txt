@@ -1,0 +1,54 @@
+
+*Creating object of String Class*
+
+ str=String.new("type your message here");
+
+
+*Creating object of a Class*
+
+ classObj=ClassName.new
+
+
+#Indexing of string
+
+>> puts hello
+hello Human!
+=> nil
+
+>> hello[2]
+=> "l"
+
+#Pring values bewteen perticular index values
+>> hello[1,3]
+=> "ell"
+
+#Counting keywords
+>> hello.count "Human"
+=> 5
+
+#.slice!(index)
+>> hello.slice!(2)
+=> "l"
+>> hello.slice!(2..6)
+=> "lo Hu"
+
+#.split
+> hello.split(" ")
+=> ["heman!"]
+
+#.size
+>> str
+=> "abcdefghijklmnopqrstuvwxyz"
+>> str.size
+=> 26
+
+#Successor value
+>> "a".succ
+=> "b"
+>> 99.succ
+=> 100
+
+#swapcase for sapping case of String
+ "Hello World!".swapcase
+=> "hELLO wORLD!"
+

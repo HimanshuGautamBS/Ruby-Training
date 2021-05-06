@@ -1,2 +1,3 @@
 mystr=String.new("Hello India");
-puts mystr;
+foo= mystr.downcase;
+puts #{foo}

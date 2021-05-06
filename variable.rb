@@ -12,7 +12,7 @@
 def counter
     count = 0
     while count <= 10
-        puts count
+        p count
         count += 1
     end
 end

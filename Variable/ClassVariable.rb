@@ -10,4 +10,4 @@ class User
     end
 end
 
-puts User.greet 
+User.greet  #=> "Hello John"

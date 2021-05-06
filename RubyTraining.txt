@@ -117,4 +117,8 @@ String Interpolation
 I just called to say: I love you.
 => nil
 
+////////////////////////////////////////
 
+Creating object of a Class
+
+classObj=ClassName.new
