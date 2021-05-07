@@ -52,3 +52,12 @@ hello Human!
  "Hello World!".swapcase
 => "hELLO wORLD!"
 
+
+#bytesize
+  "hello".bytesize
+   => 5
+
+#center
+ "hello".center(20)
+  => "       hello        "  
+
