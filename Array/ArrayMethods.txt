@@ -1,0 +1,76 @@
+#creating an array of different datatypes
+>> array=[2,3,['a','b'],nil,4,'c']
+=> [2, 3, ["a", "b"], nil, 4, "c"]
+ 
+>> array
+=> [2, 3, ["a", "b"], nil, 4, "c"]
+
+#lentgth and size
+>> array.length
+=> 6
+>> array.size
+=> 6
+
+#reverse
+>> array.reverse
+=> ["c", 4, nil, ["a", "b"], 3, 2]
+>> array
+=> [2, 3, ["a", "b"], nil, 4, "c"]
+
+# ! symbol use represent for permanent changes 
+>> array.reverse!
+=> ["c", 4, nil, ["a", "b"], 3, 2]
+>> array
+=> ["c", 4, nil, ["a", "b"], 3, 2]
+
+#shuffle
+>> array.shuffle
+=> [nil, "c", 4, 2, 3, ["a", "b"]]
+>> array
+=> ["c", 4, nil, ["a", "b"], 3, 2]
+
+#uniq (returns unique elements only)
+>> array.uniq
+=> ["c", 4, nil, ["a", "b"], 3, 2]
+
+#compact(remove nil value )
+>> array.compact
+=> ["c", 4, ["a", "b"], 3, 2]
+
+#flatten (open up tha array which present inside an array)
+>> array.flatten
+=> ["c", 4, nil, "a", "b", 3, 2]
+
+#include 
+>> array.include?(2)
+=> true
+>> array.include?(1)
+=> false
+
+#delete_at(index_no.) and delet(element_name)
+>> array.delete_at(1)
+=> 4
+>> array
+=> ["c", nil, ["a", "b"], 3, 2, 4]
+>> array.delete('c')
+=> "c"
+>> array
+=> [nil, ["a", "b"], 3, 2, 4]
+
+#join
+>> [1,2,3,4].join
+=> "1234"
+>> [1,2,3,4].join(',')
+=> "1,2,3,4"
+>> array1=[1,2,3,4].join('-')
+=> "1-2-3-4"
+>> array1
+=> "1-2-3-4"
+>> puts array1
+1-2-3-4
+=> nil
+
+#split
+>> array1.split('-')
+=> ["1", "2", "3", "4"]
+
