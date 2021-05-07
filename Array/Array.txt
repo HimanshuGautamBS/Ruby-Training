@@ -1,0 +1,50 @@
+#>> empty_array=[]
+ => []
+
+#>> my_array=['a','b','c','d',101]
+ => ["a", "b", "c", "d", 101]
+
+#>> puts my_array
+  a
+  b
+  c
+  d
+  101
+  => nil
+
+#>> print my_array
+ ["a", "b", "c", "d", 101]=> nil
+ >> my_array[1]
+ => "b"
+ >> my_array[4]
+ => 101
+ >> my_array[5]
+ => nil
+ >>
+
+#>> my_array[5]="heya"
+ => "heya"
+ >> print my_array
+ ["a", "b", "c", "d", 101, "heya"]=> nil
+ 
+#concat
+ >> my_array << "world"
+ => ["a", "b", "c", "d", 101, "heya", "world"]
+
+#Concating array inside array
+ >> my_array << ['x','y']
+ => ["a", "b", "c", "d", 101, "heya", "world", ["x", "y"]]
+
+#index beahaviour of array
+ >> my_array[2]
+ => "c"
+ >> my_array[2,4]
+ => ["c", "d", 101, "heya"]
+
+ >> my_array[-2] //retruns 2nd last value of array
+ => "world" 
+
+ >> my_array[2..3]
+ => ["c", "d"]
+
+
