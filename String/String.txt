@@ -61,3 +61,57 @@ hello Human!
  "hello".center(20)
   => "       hello        "  
 
+#gsub
+ "hello".gsub(/[aeiou]/, '*')                  
+ => "h*ll*"
+
+#equal
+ s = 'foo'
+ s.eql?('foo') 
+ => true
+
+#empty
+ "hello".empty? # => false
+ " ".empty? # => false
+ "".empty? # => true
+
+#match
+ 'foo'.match?(/o/) 
+  => true
+
+#partition
+ "hello".partition("l")         
+  => ["he", "l", "lo"]
+
+#prepend
+ s = 'foo'
+ s.prepend('bar', 'baz') 
+ => "barbazfoo"
+
+#rindex`
+ 'foo'.rindex('f') # => 0
+ 'foo'.rindex('o') # => 2
+ 'foo'.rindex('oo') # => 1
+ 'foo'.rindex('ooo') # => nil
+
+#rjust
+ "helloworld".rjust(20)           
+ => "               helloworld"
+
+#rstrip!
+ "  hello  ".rstrip!  
+ => "  hello"
+
+#squeeze
+ "yellow moon".squeeze                  
+ => "yelow mon"
+
+#start_with
+ "hello".start_with?("hell") 
+ =>true
+
+#sub
+ "hello".sub(/[aeiou]/, '*')                  
+ => "h*llo"
+
+
