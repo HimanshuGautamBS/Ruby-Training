@@ -1,3 +1,10 @@
+
+ *Methods*              *Description*
+
+ Hash[object]	    |    Create a new hash with given objects.
+ new(obj)	    |    Return a new empty hash.
+ try_convert(obj)   |    Try to convert obj into hash.
+
 #Creating empty Hash
  >> months=Hash.new
  => {}
@@ -30,4 +37,40 @@
  purple
  => nil
 
+#Removing all the key value pair from hash
+ >> color.clear
+ => {}
+
+
+#include?(key)
+ >> color.include?('Rose')
+ => true
+ >> color.include?('Lotus')
+ => false
+ 
+#to_s (return content of hash as string)
+ >> color.to_s
+ => "{\"Rose\"=>\"red\", \"Lily\"=>\"purple\", \"Marigold\"=>\"yellow\", \"Jasmine\"=>\"white\"}"
+
+#delete a key value pair
+ >> months.delete('1')
+ => "January
+
+#empty?
+ >> months.empty?
+ => false
+
+#has_key?  (? = always returns boolean value)
+ >> months.has_key?('1')
+ => true
+
+ >> months.has_key?('3')
+ => false
+
+#has_value?
+ >> months.has_value?('January')
+ => true
+ 
+ >> months.has_value?('Jan')
+ => false
 
