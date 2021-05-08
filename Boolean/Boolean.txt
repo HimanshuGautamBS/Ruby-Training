@@ -1,0 +1,60 @@
+*Boolean operators* are really methods which means that they have return values. 
+
+true in a Ruby program is an instance of => TrueClass, 
+while every appearance of false is an instance of =>  FalseClass.
+
+=>String is one type of data that are truthy.
+
+# !! (double bang operator)
+  =>name="hello"
+ 
+ >> name.class
+ => String
+
+ >> !name
+ => false
+
+ >> !!name
+ => true
+
+*In Ruby there are three main boolean operators:
+
+1)!  ("single bang") which represents NOT
+2)&& ("double-ampersand") which represents "AND"
+3)|| ("double-pipe") which represents "OR"
+
+ >> A=TRUE
+ (irb):33: warning: constant ::TRUE is deprecated
+ => true
+
+ >> A
+ => true
+
+ >> !A
+ => false
+
+ >> B=TRUE
+ (irb):36: warning: constant ::TRUE is deprecated
+ => true
+
+ >> B
+ => true
+
+ >> A
+ => true
+
+ >> A==B
+ => true
+
+ >> A!=B
+ => false
+
+ >> A.class==B.class
+ => true
+
+ >> A.class
+ => TrueClass
+
+ >> A.class && B.class == TrueClass
+ => true
+
