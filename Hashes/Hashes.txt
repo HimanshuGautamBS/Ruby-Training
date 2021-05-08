@@ -1,0 +1,33 @@
+#Creating empty Hash
+ >> months=Hash.new
+ => {}
+
+#Creating Hash with key value pairs
+ >> H=Hash["a"=>100,"b"=>200]
+ => {"a"=>100, "b"=>200}
+ 
+ >> puts H['a']
+    100
+
+#key value pair 
+ >> months={"1"=>"January","2"=>"February"}
+ => {"1"=>"January", "2"=>"February"}
+
+ >> months.keys
+ => ["1", "2"]
+
+ >> months.values
+ => ["January", "February"]
+
+#calling value with the helo of key
+ => {"Rose"=>"red", "Lily"=>"purple", "Marigold"=>"yellow", "Jasmine"=>"white"}
+
+ >> puts color['Rose']
+ red
+ => nil
+
+ >> puts color['Lily']
+ purple
+ => nil
+
+
