@@ -1,0 +1,9 @@
+#SYMBOLS#
+
+-Like string but cannot be edited
+-Begin with colon (:)
+-Not dielimited by quotes ("" or '')
+-Lowecase, underscore, no spaces
+
+
+
