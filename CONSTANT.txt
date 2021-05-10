@@ -1,0 +1,31 @@
+#Constants are used for values that aren’t supposed to change, but Ruby doesn’t prevent you from changing them.
+
+#Always starts with a capital letter
+ =>FRUIT = "orange"
+
+#You can’t define constants inside a method.
+
+#We give constant definitions at the top of your class
+ class RubyBlog
+   URL    = "rubyguides.com"
+   AUTHOR = "Jesus Castello"
+ end
+
+-Accessing the constant inside the class method or outside the class using
+ following Syntax
+
+ >> p RubyBlog::AUTHOR
+ => "Jesus Castello"
+
+#Ruby constants can change, but it will throw an error
+ >> AUTHOR="God"
+ => "God"
+ 
+ >> AUTHOR="Jesus"
+ (irb):40: warning: already initialized constant AUTHOR
+ (irb):39: warning: previous definition of AUTHOR was here
+
+#The best you can do is to use immutable objects.(freeze)
+
+#Scope=Global
+
