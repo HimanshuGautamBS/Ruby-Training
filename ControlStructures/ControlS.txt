@@ -1,0 +1,8 @@
+*CONTROL STRUCTURES*
+-Add dynamism to code
+-Determine Circumstances when code executes
+-Conditionals
+-Loops
+-Iterators
+
+#Conditionals: if-elseif-else
