@@ -5,5 +5,48 @@
 -Not dielimited by quotes ("" or '')
 -Lowecase, underscore, no spaces
 
+*Ruby allows symbols to better manage the memory
+ 'String'
+>> 'test'.object_id
+=> 47172648671420
+>> 'test'.object_id
+=> 47172648667920
+
+ :Symbols
+>> :test.object_id
+=> 377308
+>> :test.object_id
+=> 377308
+
+#Use for Hashes key-value pairs
+>> person={:first_name=>"Himanshu",:last_name=>"Gautam"}
+=> {:first_name=>"Himanshu", :last_name=>"Gautam"}
+
+>> person[:first_name]
+=> "Himanshu"
+
+#Hash Symbol Shorthand (used as JSon)
+-key is always a symbol
+-Cannot use integer as keys
+-:100 is not valid Symbol name
+
+>> student={name:"abc",rooll_no:123}
+=> {:name=>"abc", :rooll_no=>123}
+>> student[name]
+
+>> student[:name]
+=> "abc"
+
+>> student.keys
+=> [:name, :rooll_no]
+
+>> student.keys.first
+=> :name
+
+>> student.keys.first.class
+=> Symbol
+
+
+
 
 
