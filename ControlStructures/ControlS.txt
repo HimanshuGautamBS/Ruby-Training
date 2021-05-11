@@ -6,3 +6,43 @@
 -Iterators
 
 #Conditionals: if-elseif-else
+
+1)_tmp = expr0
+if expr1 === _tmp || expr2 === _tmp
+   stmt1
+elsif expr3 === _tmp || expr4 === _tmp
+   stmt2
+else
+   stmt3
+end
+
+ 2)if count > 10
+  puts "Try again"
+elsif tries == 3
+  puts "You lose"
+else
+  puts "Enter a number"
+end
+
+#Case with Booleans
+  
+ 1) case test_value
+    when value
+    #...
+   else 
+    #...
+   end
+
+ 2)age =  5
+  case $age
+  when 0 .. 2
+     puts "baby"
+  when 3 .. 6
+     puts "little child"
+  when 7 .. 12
+     puts "child"
+  when 13 .. 18
+     puts "youth"
+  else
+     puts "adult"
+  end
