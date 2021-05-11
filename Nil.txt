@@ -1,0 +1,16 @@
+#nil is an object same as null in other languages
+
+nil.class
+#NilClass
+
+nil == false
+#false
+
+nil.nil?
+#true
+
+
+Boolean and Nil
+product.nil?
+product == nil
+!product
