@@ -46,3 +46,16 @@ end
   else
      puts "adult"
   end
+
+  #loops
+  
+  #Iterators
+   To say or d
+   to apply a procedure repeatedly
+   to prform a code on each item in a set 
+
+Times, upto, downto, each
+=>5.times {puts "Hello"}
+=>1.upto(5) {puts "Hello"}
+=>5.downto(1) {puts "Hello"}
+=>(1..5).each {puts "Hello"}
