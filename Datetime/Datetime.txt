@@ -26,6 +26,16 @@ DateTimei
    2001-02-03T04:05:06+03:00
 
 #A DateTime object has various methods.
-  
+ 
+d = DateTime.parse('3rd Feb 2001 04:05:06+03:30')
+2001-02-03T04:05:06+03:30
+
+d.hour              #=> 4
+d.min               #=> 5
+d.sec               #=> 6
+d.offset            #=> (7/48)
+d.zone              #=> "+03:30" 
         
 
+#DateTime.now               
+ 2011-06-11T21:20:44+09:00
