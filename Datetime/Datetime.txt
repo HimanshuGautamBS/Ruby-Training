@@ -1,0 +1,31 @@
+DateTimei
+-A subclass of Date that easily handles date, hour, minute, second, and offset.
+
+-DateTime does not consider any leap seconds, does not track any summer time rules.
+
+#
+ require 'date'
+
+ puts DateTime.new(2001,2,3,4,5,6)
+ 
+=> 2001-02-03T04:05:06+00:00
+ 
+#The last element of day, hour, minute, or second can be a fractional number.
+ The fractional number’s precision is assumed at most nanosecond.
+
+>>DateTime.new(2001,2,3.5)
+  2001-02-03T12:00:00+00:00 
+
+
+# Rational(3,24) represents ahead of 3 hours of UTC or local time
+>>  DateTime.new(2001,2,3,4,5,6,Rational(3,24))
+    2001-02-03T04:05:06+03:00 
+
+#The offset also accepting string form
+>> DateTime.new(2001,2,3,4,5,6,'+03:00')
+   2001-02-03T04:05:06+03:00
+
+#A DateTime object has various methods.
+  
+        
+
