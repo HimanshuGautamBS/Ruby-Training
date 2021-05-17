@@ -1,0 +1,8 @@
+ ENUMERABLE
+ set of items that can be counted
+-Countable Items 
+
+e.g. Arrays
+     Ranges
+     Hashes
+     String(sort of)
