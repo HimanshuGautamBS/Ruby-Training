@@ -6,3 +6,8 @@ w=gets.chomp.to_f
 area=l*w
 
 puts "Area of Rectangle is #{area}"
+
+#compact
+#map
+#unless
+#grep

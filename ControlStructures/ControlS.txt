@@ -69,3 +69,7 @@ Times, upto, downto, each
 =>1.upto(5) {puts "Hello"}
 =>5.downto(1) {puts "Hello"}
 =>(1..5).each {puts "Hello"}
+
+#Map convert all the values of array in to perticular type 
+ a.map(&:to_i)
+

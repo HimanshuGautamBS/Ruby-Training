@@ -114,4 +114,10 @@ hello Human!
  "hello".sub(/[aeiou]/, '*')                  
  => "h*llo"
 
+#grep command
+>> array.grep(Integer)
+=> [0, 1729]
+>> array.grep(String)
+=> ["A", "Edabit", "Ruby", "1729"]
+	
 

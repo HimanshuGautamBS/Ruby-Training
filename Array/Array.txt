@@ -47,4 +47,10 @@
  >> my_array[2..3]
  => ["c", "d"]
 
+#compact method
+ >> array.map{|x| x if x.is_a? Integer}.compact
+ => [0, 1729]
+ >> array.map{|x| x if x.is_a? Integer}
+ => [nil, 0, nil, 1729, nil, nil]
+ >> 
 
